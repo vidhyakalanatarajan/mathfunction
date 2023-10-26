@@ -1,0 +1,21 @@
+#btn{
+    height: 35px;
+    width: 200px;
+    margin-top: 30px;
+}
+.green{
+    background-color: rgb(19, 172, 19);
+    color: aliceblue;
+    height: 30px;
+    width: 200px;
+}
+.red{
+    background-color: red;
+    color: aliceblue;
+    height: 30px;
+    width: 200px;
+}
+#add{
+    margin-top: 80px;
+    padding-left: 150px;
+}

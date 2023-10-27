@@ -15,3 +15,8 @@ function demo(){
         document.getElementById("result").className="red";
     }
 }
+function reset(){
+    document.getElementById("num1").value=" ";
+    document.getElementById("num2").value=" ";
+    document.getElementById("num3").value=" ";
+}

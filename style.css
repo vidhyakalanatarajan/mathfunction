@@ -19,3 +19,15 @@
     margin-top: 80px;
     padding-left: 150px;
 }
+.bot{
+    height: 35px;
+    width: 200px;
+    margin-top: 30px;
+}
+#img{
+    height: 250px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

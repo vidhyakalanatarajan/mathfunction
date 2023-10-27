@@ -16,8 +16,13 @@
     width: 200px;
 }
 #add{
-    margin-top: 80px;
+    margin-top: 250px;
     padding-left: 150px;
+}
+#box{
+    background-color: pink;
+    height: 200px;
+    width: 100vh;
 }
 .bot{
     height: 35px;
@@ -25,8 +30,32 @@
     margin-top: 30px;
 }
 #img{
-    height: 250px;
-    width: 400px;
+    height: 100px;
+    width: 100vw;
     display: flex;
     justify-content: center;
+}
+.n1{
+    height: 20px;
+    width: 50px;
+}
+.n2{
+    height: 20px;
+    width: 50px;
+}
+.n3{
+    height: 20px;
+    width: 50px;
+}
+.but{
+    display: flex;
+    justify-content: center;
+}
+.sum{
+    height: 20px;
+    width: 50px;
+}
+.equal{
+    height: 20px;
+    width: 50px;
 }

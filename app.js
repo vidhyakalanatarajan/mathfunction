@@ -16,7 +16,7 @@ function demo(){
     }
 }
 function reset(){
-    document.getElementById("num1").value=" ";
-    document.getElementById("num2").value=" ";
+    document.getElementById("num1").innerHTML=Math.floor(Math.random()*100);
+    document.getElementById("num2").innerHTML=Math.floor(Math.random()*100);
     document.getElementById("num3").value=" ";
 }

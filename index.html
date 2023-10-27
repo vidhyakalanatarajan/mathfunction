@@ -7,14 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <img id="img" src="https://bit.ly/3FyRAKd" />
+    
+    <div id="img">
+        <img src="https://bit.ly/3FyRAKd"width="400px" height="200px"/></div>
+        <div id="box">
         <div id="add">
-        <input type="text" id="num1" name="num1" value=""/>+
-        <input type="text" id="num2" name="num2" value=""/>=
-        <input type="text" id="num3" name="num3" value=""/></div>
-        <div><input type="button" id="btn" class="btn1" value="check" onclick="demo()"/>
+        <input type="text" id="num1" class="n1" name="num1" value=""/>
+        <input type="text" class="sum" value="+"/>
+        <input type="text" id="num2" class="n2" name="num2" value=""/>
+        <input type="text" class="equal" value="="/>
+        <input type="text" id="num3" class="n3" name="num3" value=""/></div>
+        <div class="but"><input type="button" id="btn" class="btn1" value="check" onclick="demo()"/>
         <input type="button" id="btn2" class="bot" value="reset" onclick="reset()"/></div>
-        <div id="result"></div>
+        <div id="result"></div></div>
         <script src="app.js"></script>
 </body>
 </html>
